@@ -1,0 +1,28 @@
+Plan and notes for programming
+==============================
+
+General challenge requirements:
+
+-Complete 2 laps around room
+--1 lap teleop
+--1 lap autonomous
+--either order
+-Move to shooting range
+--teleop or autonomous
+-Shoot wiffle balls at target
+--5 times
+--accuracy counts
+
+Challenge notes:
+
+-laps: teleop -> autonomous
+--Start recording before teleop (button)
+--single joystick
+--Move to start and repeat recording (button)
+-Move to range: auto or teleop?
+--Auto: button, and sensors to detect range
+-Shoot at target: auto or teleop?
+--Auto: button to shoot, camera and rangefinder to detect and autoposition for firing
+--Teleop: Joystick for adjusting shooter
+*there are 2 different shooters:
+  switch to select appropriate programming for currently installed shooter
